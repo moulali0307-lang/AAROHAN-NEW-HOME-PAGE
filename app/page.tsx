@@ -747,81 +747,78 @@ export default function Home() {
           PARTNERS
       ========================================================= */}
 
-      <section className="partners-section">
-        <div className="section-container">
-          <div className="partners-heading reveal">
-            <span />
-            <p>IN PARTNERSHIP WITH EXCELLENCE</p>
-            <span />
-          </div>
+     <section className="partners-section">
+      <div className="partners-heading">
+        <span></span>
+        <p>IN PARTNERSHIP WITH EXCELLENCE</p>
+        <span></span>
+      </div>
 
-          <div className="partners-row reveal">
-            <div className="partner-item partner-logo-item">
-              <img src={GOVT_LOGO} alt="Government of Andhra Pradesh" className="partner-logo" style={{ width: "auto", height: "54px", maxWidth: "180px", objectFit: "contain" }} />
-            </div>
+      <div className="partners-grid">
 
-            <div className="partner-separator" />
-
-            <div className="partner-item partner-logo-item">
-              <img src={NITI_LOGO} alt="NITI Aayog" className="partner-logo" style={{ width: "auto", height: "54px", maxWidth: "180px", objectFit: "contain" }} />
-            </div>
-
-            <div className="partner-separator" />
-
-            <div className="partner-item partner-logo-item">
-              <img src={AICTE_LOGO} alt="AICTE" className="partner-logo" style={{ width: "auto", height: "54px", maxWidth: "180px", objectFit: "contain" }} />
-            </div>
-
-            <div className="partner-separator" />
-
-            <div className="partner-item partner-logo-item fynity-partner">
-              <img src={FYNITY_LOGO} alt="Fynity Innovations" className="partner-logo fynity-partner-logo" style={{ width: "auto", height: "54px", maxWidth: "180px", objectFit: "contain" }} />
-            </div>
-
-            <div className="partner-separator" />
-
-            <div className="partner-item partner-logo-item">
-              <img src={AWS_LOGO} alt="Amazon Web Services" className="partner-logo" style={{ width: "auto", height: "54px", maxWidth: "180px", objectFit: "contain" }} />
-            </div>
-          </div>
+        <div className="partner-item">
+          <img src="/govt.png" alt="JNTU Kakinada" />
+          <h4>JNTU Kakinada</h4>
         </div>
-      </section>
 
-      {/* =========================================================
-          CTA
-      ========================================================= */}
-
-      <section className="final-cta">
-        <div className="cta-orbit orbit-left" />
-        <div className="cta-orbit orbit-right" />
-
-        <div className="section-container">
-          <div className="final-cta-inner reveal">
-            <div>
-              <div className="section-label light">
-                <span>06</span>
-                START YOUR JOURNEY
-              </div>
-
-              <h2>
-                Your next chapter
-                <br />
-                <em>starts here.</em>
-              </h2>
-
-              <p>
-                Take the first step towards future-ready skills, practical
-                learning and new possibilities.
-              </p>
-            </div>
-
-            <button className="cta-button" onClick={openStudentForm}>
-              Start Your Journey
-              <span>→</span>
-            </button>
-          </div>
+        <div className="partner-item">
+         <img src="/niti-logo.jpg" alt="NITI Aayog" />
+          <h4>NITI Aayog</h4>
         </div>
-      </section>
+
+        <div className="partner-item">
+          <img src="/aicte-logo.png" alt="AICTE" />
+          <h4>AICTE</h4>
+        </div>
+
+        <div className="partner-item">
+          <img src="/fynity-logo.jpg" alt="Fynity Innovations" />
+          <h4>Fynity Innovations</h4>
+        </div>
+
+        <div className="partner-item">
+         <img src="/aws-logo.png" alt="Amazon Web Services" />
+          <h4>Amazon Web Services</h4>
+        </div>
+
+      </div>
+    </section>
+
+              {/* =========================================================
+                  CTA
+              ========================================================= */}
+
+              <section className="final-cta">
+                <div className="cta-orbit orbit-left" />
+                <div className="cta-orbit orbit-right" />
+
+                <div className="section-container">
+                  <div className="final-cta-inner reveal">
+                    <div>
+                      <div className="section-label light">
+                        <span>06</span>
+                        START YOUR JOURNEY
+                      </div>
+
+                      <h2>
+                        Your next chapter
+                        <br />
+                        <em>starts here.</em>
+                      </h2>
+
+                      <p>
+                        Take the first step towards future-ready skills, practical
+                        learning and new possibilities.
+                      </p>
+                    </div>
+
+                    <button className="cta-button" onClick={openStudentForm}>
+                      Start Your Journey
+                      <span>→</span>
+                    </button>
+                  </div>
+                </div>
+              </section>
 
       {/* =========================================================
           CONTACT
